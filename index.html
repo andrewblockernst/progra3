@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comidas Típicas de Argentina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        
+        header {
+            background-color: #75AADB;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1576473228178-467ab095c2ea?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        
+        h2 {
+            color: #75AADB;
+            border-bottom: 2px solid #FFB81C;
+            padding-bottom: 0.5rem;
+        }
+        
+        .food-section {
+            margin-bottom: 3rem;
+        }
+        
+        .food-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .food-card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .food-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .food-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .food-card-content {
+            padding: 1.5rem;
+        }
+        
+        .food-card h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Comidas Típicas de Argentina</h1>
+            <p>Un recorrido por los sabores más auténticos de la gastronomía argentina</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section class="food-section">
+            <h2>Carnes</h2>
+            <div class="food-grid">
+                <div class="food-card">
+                    <img src="https://images.unsplash.com/photo-1615937657715-bc7b4b7962c1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Asado argentino">
+                    <div class="food-card-content">
+                        <h3>Asado</h3>
+                        <p>El rey de la gastronomía argentina. Consiste en varios cortes de carne vacuna como costillas, vacío, asado de tira, entre otros, cocinados a la parrilla.</p>
+                    </div>
+                </div>
+                
+                <div class="food-card">
+                    <img src="https://images.unsplash.com/photo-1619221882266-8d329c5a7c2c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Milanesa">
+                    <div class="food-card-content">
+                        <h3>Milanesa</h3>
+                        <p>Filete de carne (generalmente de ternera, pollo o berenjena) rebozado en pan rallado y huevo, y luego frito. Se sirve con papas fritas, ensalada o puré.</p>
+                    </div>
+                </div>
+                
+                <div class="food-card">
+                    <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Choripán">
+                    <div class="food-card-content">
+                        <h3>Choripán</h3>
+                        <p>Sándwich de chorizo a la parrilla en pan crujiente, generalmente acompañado de chimichurri, una salsa a base de perejil, ajo, aceite y vinagre.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="food-section">
+            <h2>Empanadas</h2>
+            <div class="food-grid">
+                <div class="food-card">
+                    <img src="https://images.unsplash.com/photo-1609950557462-8841775a1140?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Empanadas argentinas">
+                    <div class="food-card-content">
+                        <h3>Empanada de Carne</h3>
+                        <p>Masa rellena de carne picada, cebolla, pimiento, huevo duro y aceitunas, horneada o frita. Cada provincia tiene su versión característica.</p>
+                    </div>
+                </div>
+                
+                <div class="food-card">
+                    <img src="https://images.pexels.com/photos/6941010/pexels-photo-6941010.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Empanadas de jamón y queso">
+                    <div class="food-card-content">
+                        <h3>Empanada de Jamón y Queso</h3>
+                        <p>Una versión popular rellena con jamón cocido y queso, especialmente querida en Buenos Aires.</p>
+                    </div>
+                </div>
+                
+                <div class="food-card">
+                    <img src="https://images.pexels.com/photos/5677799/pexels-photo-5677799.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Empanadas de humita">
+                    <div class="food-card-content">
+                        <h3>Empanada de Humita</h3>
+                        <p>Rellena con una mezcla cremosa de choclo (maíz), cebolla, pimiento y especias. Típica del noroeste argentino.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="food-section">
+            <h2>Platos de Pasta</h2>
+            <div class="food-grid">
+                <div class="food-card">
+                    <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Ñoquis">
+                    <div class="food-card-content">
+                        <h3>Ñoquis</h3>
+                        <p>Tradicionales ñoquis de papa, servidos generalmente con salsa de tomate o bolognesa. En Argentina existe la tradición de comerlos el día 29 de cada mes.</p>
+                    </div>
+                </div>
+                
+                <div class="food-card">
+                    <img src="https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Canelones">
+                    <div class="food-card-content">
+                        <h3>Canelones</h3>
+                        <p>Pasta enrollada y rellena de espinaca, ricota, jamón y queso, cubierta con salsa blanca y salsa de tomate, y gratinada al horno.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="food-section">
+            <h2>Dulces y Postres</h2>
+            <div class="food-grid">
+                <div class="food-card">
+                    <img src="https://images.unsplash.com/photo-1627308595171-d1b5d67129c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Dulce de leche">
+                    <div class="food-card-content">
+                        <h3>Dulce de Leche</h3>
+                        <p>Crema dulce obtenida al cocinar lentamente leche con azúcar. Se utiliza para rellenar alfajores, como cobertura de tortas o simplemente para untar.</p>
+                    </div>
+                </div>
+                
+                <div class="food-card">
+                    <img src="https://images.pexels.com/photos/14705144/pexels-photo-14705144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Alfajores">
+                    <div class="food-card-content">
+                        <h3>Alfajores</h3>
+                        <p>Dos galletas unidas por dulce de leche y a veces cubiertas con chocolate o glaseado. Hay numerosas variedades regionales.</p>
+                    </div>
+                </div>
+                
+                <div class="food-card">
+                    <img src="https://images.pexels.com/photos/14467360/pexels-photo-14467360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Flan casero">
+                    <div class="food-card-content">
+                        <h3>Flan con Dulce de Leche</h3>
+                        <p>Postre tradicional de huevo y leche, servido con dulce de leche y a veces crema batida.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="food-section">
+            <h2>Bebidas</h2>
+            <div class="food-grid">
+                <div class="food-card">
+                    <img src="https://images.unsplash.com/photo-1578996953841-289ebda97081?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Mate">
+                    <div class="food-card-content">
+                        <h3>Mate</h3>
+                        <p>Infusión tradicional hecha con hojas de yerba mate. Se sirve en un recipiente (mate) y se bebe con una bombilla. Es un elemento cultural fundamental y símbolo de la hospitalidad argentina.</p>
+                    </div>
+                </div>
+                
+                <div class="food-card">
+                    <img src="https://images.pexels.com/photos/2912108/pexels-photo-2912108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Vino Malbec">
+                    <div class="food-card-content">
+                        <h3>Vino Malbec</h3>
+                        <p>Argentina es famosa por sus vinos, especialmente el Malbec. Es el acompañamiento perfecto para un buen asado argentino.</p>
+                    </div>
+                </div>
+                
+                <div class="food-card">
+                    <img src="https://images.pexels.com/photos/5947021/pexels-photo-5947021.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Fernet con Cola">
+                    <div class="food-card-content">
+                        <h3>Fernet con Cola</h3>
+                        <p>Una de las bebidas alcohólicas más populares de Argentina, especialmente en Córdoba, donde se mezcla el licor italiano Fernet con Coca-Cola.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Comidas Típicas de Argentina</p>
+    </footer>
+</body>
+</html></div>
